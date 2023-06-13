@@ -83,7 +83,7 @@ def main():
 
         heatmap_d = {
             "tooltip": {"position": "top"},
-            "grid": {"height": "50%", "top": "10%", "left": "20%"},
+            "grid": {"height": "50%", "top": "10%", "left": "30%"},
             "xAxis": {"type": "category", "data": anios_list, "splitArea": {"show": True}},
             "yAxis": {"type": "category", "data": top_5_customers_names, "splitArea": {"show": True}},
             "visualMap": {
