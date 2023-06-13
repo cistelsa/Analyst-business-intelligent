@@ -108,7 +108,7 @@ def main():
             ],
         }
 
-        st_echarts(heatmap_d, height="500px", width="600px")
+        st_echarts(heatmap_d, height="500px", width="100%")
 
     with col4:
         st.markdown("<h3 style='text-align: center;'>Top 3 - Productos más vendidos 💣</h3>", unsafe_allow_html=True)
